@@ -2,20 +2,20 @@
 
 - A Streamlit-based AI-powered stock market assistant that fetches real-time stock prices, compares multiple stocks, and retrieves the latest financial news using Google Gemini AI and SerpAPI.
 
-🚀 Features
+# 🚀 Features
 ✅ Fetch the latest stock prices in INR from NSE/BSE.
 ✅ Compare multiple stock prices side by side.
 ✅ Get summarized stock market news for any company.
 ✅ Powered by LangChain AI Agent + Google Gemini + SerpAPI.
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 Python
 Streamlit (Web App)
 LangChain (AI Agent Framework)
 Google Generative AI (Gemini-Pro)
 SerpAPI (Real-time Search for Stock Prices & News)
 Pyngrok (For public URL in Colab)
-📌 Installation
+# 📌 Installation
 1️⃣ Clone the Repository
 bash
 Copy
@@ -77,11 +77,11 @@ Get Stock Market News 📰
 📽️ Video Walkthrough
 🔗 Video Demo Link
 
-📜 License
+# 📜 License
 This project is open-source under the MIT License.
 
-📧 Contact
+# 📧 Contact
 Developed by Suraj Khillare
-📩 Email: your-email@example.com
-🔗 LinkedIn
+# 📩 Email: your-email@example.com
+# 🔗 LinkedIn
 
