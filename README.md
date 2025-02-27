@@ -34,11 +34,11 @@
   - Get SerpAPI Key → SerpAPI Website
   - Set them in your environment:
 
-- bash
-- Copy
-- Edit
-- export GOOGLE_API_KEY="your_google_gemini_api_key"
-- export SERPAPI_API_KEY="your_serpapi_key"
+  - bash
+  - Copy
+  - Edit
+  - export GOOGLE_API_KEY="your_google_gemini_api_key"
+  - export SERPAPI_API_KEY="your_serpapi_key"
 - ▶️ Running the Application
 - 🖥️ On Local Machine
   - bash
@@ -46,36 +46,36 @@
   - Edit
   - streamlit run app.py
 # ☁️ On Google Colab (With ngrok)
-Set up ngrok authentication:
+- Set up ngrok authentication:
 
-python
-Copy
-Edit
-from google.colab import userdata
-ngrok_auth = userdata.get('ngrok_auth')
+  - python
+  - Copy
+  - Edit
+  - from google.colab import userdata
+  - ngrok_auth = userdata.get('ngrok_auth')
 
-from pyngrok import ngrok
-ngrok.kill()
-ngrok.set_auth_token(ngrok_auth)
-ngrok_tunnel = ngrok.connect(addr="5000", proto="http")
-print("Tracking URI:", ngrok_tunnel.public_url)
-Run the Streamlit app:
+  - from pyngrok import ngrok
+  - ngrok.kill()
+  - ngrok.set_auth_token(ngrok_auth)
+  - ngrok_tunnel = ngrok.connect(addr="5000", proto="http")
+  - print("Tracking URI:", ngrok_tunnel.public_url)
+  - Run the Streamlit app:
 
-bash
-Copy
-Edit
-!streamlit run --server.port 5000 app.py
-💡 How to Use the App?
-1️⃣ Open the Streamlit web UI.
-2️⃣ Select an option from:
+  - bash
+  - Copy
+  - Edit
+  - !streamlit run --server.port 5000 app.py
+#💡 How to Use the App?
+- 1️⃣ Open the Streamlit web UI.
+- 2️⃣ Select an option from:
 
-Fetch Latest Stock Price 🏦
-Compare Multiple Stocks 📊
-Get Stock Market News 📰
-3️⃣ Enter stock/company names & click Submit.
-4️⃣ Get real-time stock prices, comparisons, or news insights! 🚀
-📽️ Video Walkthrough
-🔗 Video Demo Link
+  - Fetch Latest Stock Price 🏦
+  - Compare Multiple Stocks 📊
+  - Get Stock Market News 📰
+- 3️⃣ Enter stock/company names & click Submit.
+- 4️⃣ Get real-time stock prices, comparisons, or news insights! 🚀
+- 📽️ Video Walkthrough
+- 🔗 Video Demo Link
 
 # 📜 License
 This project is open-source under the MIT License.
