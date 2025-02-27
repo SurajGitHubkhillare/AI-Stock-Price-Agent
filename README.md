@@ -1,4 +1,5 @@
 📈 AI Stock Price & Market News Bot
+
 A Streamlit-based AI-powered stock market assistant that fetches real-time stock prices, compares multiple stocks, and retrieves the latest financial news using Google Gemini AI and SerpAPI.
 
 🚀 Features
